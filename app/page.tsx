@@ -1,7 +1,21 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
-      <section className="px-6 py-24 text-center">
+
+    <nav className="flex justify-between items-center px-8 py-6 bg-slate-950 border-b border-slate-800">
+      <div className="font-bold text-xl">
+        Microverse Solutions
+      </div>
+
+      <div className="flex gap-6">
+        <a href="#home">Home</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section id="home" className="px-6 py-24 text-center">
         <h1 className="text-6xl font-bold mb-6">
           Microverse Solutions
         </h1>
@@ -22,7 +36,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-6 py-20 bg-slate-900">
+      <section id="solutions" className="px-6 py-20 bg-slate-900">
         <h2 className="text-4xl font-bold text-center mb-12">
           Our Services
         </h2>
