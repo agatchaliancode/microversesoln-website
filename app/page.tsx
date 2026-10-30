@@ -10,8 +10,8 @@ export default function Home() {
           <Image
             src="/logo.png"
             alt="Microverse Solutions"
-            width={140}
-            height={47}
+            width={130}
+            height={43}
             priority
           />
         </a>
