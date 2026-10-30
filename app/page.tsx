@@ -12,16 +12,17 @@ export default function Home() {
             alt="Microverse Solutions"
             width={130}
             height={43}
+            style={{ height: "auto" }}
             priority
           />
         </a>
       </div>
 
       <div className="flex gap-6">
-        <a href="#home">Home</a>
-        <a href="#solutions">Solutions</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="/">Home</a>
+        <a href="/solutions">Solutions</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
       </div>
     </nav>
 
