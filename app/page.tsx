@@ -4,28 +4,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
 
-    <nav className="flex justify-between items-center px-8 py-2 bg-slate-950 border-b border-slate-800">
-      <div className="flex items-center">
-        <a href="#home">
-          <Image
-            src="/logo.png"
-            alt="Microverse Solutions"
-            width={130}
-            height={43}
-            style={{ height: "auto" }}
-            priority
-          />
-        </a>
-      </div>
-
-      <div className="flex gap-6">
-        <a href="/">Home</a>
-        <a href="/solutions">Solutions</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-      </div>
-    </nav>
-
     <section id="home" className="px-6 py-24 text-center">
         <h1 className="text-6xl font-bold mb-6">
           Microverse Solutions
