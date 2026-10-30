@@ -4,15 +4,17 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
 
-    <nav className="flex justify-between items-center px-8 py-6 bg-slate-950 border-b border-slate-800">
+    <nav className="flex justify-between items-center px-8 py-2 bg-slate-950 border-b border-slate-800">
       <div className="flex items-center">
-        <Image
-          src="/logo.png"
-          alt="Microverse Solutions"
-          width={180}
-          height={60}
-          priority
-        />
+        <a href="#home">
+          <Image
+            src="/logo.png"
+            alt="Microverse Solutions"
+            width={140}
+            height={47}
+            priority
+          />
+        </a>
       </div>
 
       <div className="flex gap-6">
