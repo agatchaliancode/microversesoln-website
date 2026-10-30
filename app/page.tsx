@@ -1,10 +1,18 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
 
     <nav className="flex justify-between items-center px-8 py-6 bg-slate-950 border-b border-slate-800">
-      <div className="font-bold text-xl">
-        Microverse Solutions
+      <div className="flex items-center">
+        <Image
+          src="/logo.png"
+          alt="Microverse Solutions"
+          width={180}
+          height={60}
+          priority
+        />
       </div>
 
       <div className="flex gap-6">
