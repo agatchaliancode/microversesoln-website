@@ -4,25 +4,43 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
 
-    <section id="home" className="px-6 py-24 text-center">
-        <h1 className="text-6xl font-bold mb-6">
-          Microverse Solutions
-        </h1>
+    <section id="home" className="px-6 py-20 text-center">
+        <h1 className="text-6xl font-bold mb-6 leading-tight">
+  Accelerate Business Growth with
+        <span className="block text-sky-400">
+          AI, Analytics & Automation
+        </span>
+      </h1>
 
-        <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-          Empowering Micro Businesses Through AI,
-          Analytics, and IT Innovation.
-        </p>
+      <p className="text-xl text-slate-300 max-w-4xl mx-auto">
+        Microverse Solutions helps small businesses streamline operations,
+        unlock actionable insights, and leverage enterprise-grade technology
+        without enterprise-grade costs.
+      </p>
 
-        <div className="mt-10 flex justify-center gap-4">
-          <button className="bg-sky-500 px-6 py-3 rounded-lg font-semibold">
-            Explore Solutions
-          </button>
+        <div className="mt-10 flex justify-center gap-4 flex-wrap">
+          <a
+              href="/solutions"
+              className="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-lg font-semibold transition-colors"
+            >
+              Explore Solutions
+            </a>
 
-          <button className="border border-slate-500 px-6 py-3 rounded-lg font-semibold">
-            Contact Us
-          </button>
+            <a
+              href="/contact"
+              className="border border-slate-500 hover:border-sky-400 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+            >
+              Schedule a Consultation
+            </a>
         </div>
+        
+        <div className="mt-12 flex justify-center gap-8 text-slate-400 text-sm flex-wrap">
+          <span>✓ AI Solutions</span>
+          <span>✓ Business Intelligence</span>
+          <span>✓ Process Automation</span>
+          <span>✓ Custom Applications</span>
+        </div>
+
       </section>
 
       <section id="solutions" className="px-6 py-20 bg-slate-900">
