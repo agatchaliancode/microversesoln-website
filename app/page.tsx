@@ -56,26 +56,33 @@ export default function Home() {
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          
-          <div className="bg-slate-800 p-6 rounded-xl">
-            <h3 className="text-xl font-bold mb-3">
-              Automation
-            </h3>
-            <p>
-              Streamline operations through workflow automation.
-            </p>
-          </div>
 
           <div className="bg-slate-800 p-6 rounded-xl">
-            <h3 className="text-xl font-bold mb-3">
+          
+          <a href="/solutions">
+            <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                  <h3 className="text-xl font-bold mb-3">
+                Automation
+              </h3>
+              <p>
+                Streamline operations through workflow automation.
+              </p>
+            </div>
+          </a>
+
+          <a href="/solutions">
+            <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                <h3 className="text-xl font-bold mb-3">
               Analytics
             </h3>
             <p>
               Turn business data into actionable insights.
             </p>
           </div>
+          </a>
 
-          <div className="bg-slate-800 p-6 rounded-xl">
+          <a href="/solutions">
+            <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
             <h3 className="text-xl font-bold mb-3">
               Business Intelligence
             </h3>
@@ -83,8 +90,10 @@ export default function Home() {
               Interactive Power BI dashboards and KPI reporting.
             </p>
           </div>
+          </a>
 
-          <div className="bg-slate-800 p-6 rounded-xl">
+          <a href="/solutions">
+            <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
             <h3 className="text-xl font-bold mb-3">
               Artificial Intelligence
             </h3>
@@ -92,6 +101,8 @@ export default function Home() {
               AI-powered solutions for smarter business decisions.
             </p>
           </div>
+          </a>
+
         </div>
       </section>
     </main>
