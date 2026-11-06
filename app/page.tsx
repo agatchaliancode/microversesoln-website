@@ -43,12 +43,20 @@ export default function Home() {
 
       </section>
 
-      <section id="solutions" className="px-6 py-20 bg-slate-900">
-        <h2 className="text-4xl font-bold text-center mb-12">
-          Our Services
+      <section id="solutions" className="px-6 py-16 bg-slate-900">
+
+        <h2 className="text-4xl font-bold text-center mb-4">
+          How We Help Businesses Grow
         </h2>
 
+        <p className="text-center text-slate-300 max-w-3xl mx-auto mb-12">
+          From automation and business intelligence to
+          custom applications and AI-powered solutions,
+          we help organizations work smarter and grow faster.
+        </p>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
           <div className="bg-slate-800 p-6 rounded-xl">
             <h3 className="text-xl font-bold mb-3">
               Automation
