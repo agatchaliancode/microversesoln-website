@@ -103,6 +103,78 @@ export default function Home() {
 
         </div>
       </section>
+
+      <section className="px-6 py-20 bg-slate-950">
+
+          <h2 className="text-4xl font-bold text-center mb-4">
+            Why Microverse Solutions
+          </h2>
+
+          <p className="text-center text-slate-300 max-w-3xl mx-auto mb-12">
+            We help small businesses leverage modern technology,
+            analytics, and automation to compete and grow with confidence.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300">
+              <h3 className="font-bold text-lg mb-2">
+                Small Business Focused
+              </h3>
+              <p className="text-slate-300">
+                Solutions designed specifically for micro businesses and startups.
+              </p>
+            </div>
+
+            <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300">
+              <h3 className="font-bold text-lg mb-2">
+                Microsoft Expertise
+              </h3>
+              <p className="text-slate-300">
+                Leveraging Power BI, Microsoft Fabric, Power Platform, and Azure.
+              </p>
+            </div>
+
+            <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300">
+              <h3 className="font-bold text-lg mb-2">
+                AI-Powered Innovation
+              </h3>
+              <p className="text-slate-300">
+                Practical AI solutions that improve efficiency and decision-making.
+              </p>
+            </div>
+
+            <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300">
+              <h3 className="font-bold text-lg mb-2">
+                Cost-Effective Solutions
+              </h3>
+              <p className="text-slate-300">
+                Enterprise-grade capabilities without enterprise-level costs.
+              </p>
+            </div>
+
+            <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300">
+              <h3 className="font-bold text-lg mb-2">
+                Data-Driven Insights
+              </h3>
+              <p className="text-slate-300">
+                Turn business data into actionable intelligence and growth strategies.
+              </p>
+            </div>
+
+            <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300">
+              <h3 className="font-bold text-lg mb-2">
+                Long-Term Partnership
+              </h3>
+              <p className="text-slate-300">
+                Ongoing support and scalable technology as your business grows.
+              </p>
+            </div>
+
+          </div>
+
+      </section>
+
     </main>
   );
 }
