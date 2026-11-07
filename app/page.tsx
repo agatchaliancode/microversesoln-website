@@ -57,11 +57,9 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-          <div className="bg-slate-800 p-6 rounded-xl">
-          
           <a href="/solutions">
             <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
-                  <h3 className="text-xl font-bold mb-3">
+                      <h3 className="text-xl font-bold mb-3">
                 Automation
               </h3>
               <p>
