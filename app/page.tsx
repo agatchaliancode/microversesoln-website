@@ -4,7 +4,17 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
 
-    <section id="home" className="px-6 py-20 text-center">
+    <section
+      id="home"
+      className="relative px-6 py-32 text-center bg-cover bg-right"
+      style={{
+        backgroundImage: "url('/hero-bg.jpeg')",
+      }}
+    >
+      <div className="absolute inset-0 bg-slate-950/80"></div>
+
+      <div className="relative z-10">
+      
         <h1 className="text-6xl font-bold mb-6 leading-tight">
   Accelerate Business Growth with
         <span className="block text-sky-400">
@@ -40,7 +50,7 @@ export default function Home() {
           <span>✓ Process Automation</span>
           <span>✓ Custom Applications</span>
         </div>
-
+        </div>
       </section>
 
       <section id="solutions" className="px-6 py-16 bg-slate-900">
