@@ -63,7 +63,73 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </nav>
 
       {children}
-      <Analytics/>
+
+      <footer className="border-t border-slate-800 bg-slate-950 py-12 mt-auto">
+        <div className="max-w-6xl mx-auto px-6">
+
+          <div className="grid md:grid-cols-3 gap-8">
+
+            <div>
+              <Image
+                src="/logo.png"
+                alt="Microverse Solutions"
+                width={180}
+                height={60}
+              />
+              <p className="text-slate-400">
+                Empowering small businesses through AI,
+                Analytics, Automation, and Business Intelligence.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-3">
+                Quick Links
+              </h3>
+
+              <div className="flex flex-col gap-2">
+                <a href="/" className="text-slate-400 hover:text-sky-400">
+                  Home
+                </a>
+
+                <a href="/solutions" className="text-slate-400 hover:text-sky-400">
+                  Solutions
+                </a>
+
+                <a href="/about" className="text-slate-400 hover:text-sky-400">
+                  About
+                </a>
+
+                <a href="/contact" className="text-slate-400 hover:text-sky-400">
+                  Contact
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold mb-3">
+                Contact
+              </h3>
+
+              <p className="text-slate-400">
+                anthony@microversesoln.com
+              </p>
+
+              <p className="text-slate-400 mt-2">
+                Murrieta, California
+              </p>
+            </div>
+
+          </div>
+
+          <div className="border-t border-slate-800 mt-8 pt-6 text-center text-slate-500">
+            © 2026 Microverse Solutions. All Rights Reserved.
+          </div>
+
+        </div>
+      </footer>
+
+      <Analytics />
     </body>
     </html>
   );
