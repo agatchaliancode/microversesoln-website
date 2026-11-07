@@ -64,12 +64,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
       {children}
 
-      <footer className="border-t border-slate-800 bg-slate-950 py-12 mt-auto">
+      <footer className="border-t border-slate-800 bg-slate-900 py-16 mt-20">
         <div className="w-full px-16">
 
           <div className="grid md:grid-cols-12 gap-12">
 
-            <div className="md:col-span-6">
+            <div className="md:col-span-7">
               <Image
                 src="/logo.png"
                 alt="Microverse Solutions"
@@ -82,7 +82,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </p>
             </div>
 
-              <div className="md:col-span-3">
+              <div className="md:col-span-2">
                 <h3 className="text-lg font-semibold text-white mb-4">
                   Quick Links
                 </h3>
