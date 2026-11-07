@@ -107,7 +107,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-3">
+              <h3 className="text-lg font-semibold text-white mb-3">
                 Contact
               </h3>
 
