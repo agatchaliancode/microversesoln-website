@@ -67,9 +67,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <footer className="border-t border-slate-800 bg-slate-950 py-12 mt-auto">
         <div className="w-full px-16">
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
+          <div className="grid md:grid-cols-12 gap-12">
 
-            <div className="lg:col-span-1">
+            <div className="md:col-span-6">
               <Image
                 src="/logo.png"
                 alt="Microverse Solutions"
@@ -82,12 +82,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </p>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-white mb-3">
-                Quick Links
-              </h3>
+              <div className="md:col-span-3">
+                <h3 className="text-lg font-semibold text-white mb-4">
+                  Quick Links
+                </h3>
 
-              <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-3">
                 <a href="/" className="text-slate-300 hover:text-sky-400">
                   Home
                 </a>
@@ -106,14 +106,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </div>
             </div>
 
-            <div>
-              <h3 className="text-lg font-semibold text-white mb-3">
+            <div className="md:col-span-3">
+              <h3 className="text-lg font-semibold text-white mb-4">
                 Contact
               </h3>
 
-              <p className="text-slate-300">
-                anthony@microversesoln.com
-              </p>
+            <a
+              href="mailto:anthony@microversesoln.com"
+              className="text-slate-300 hover:text-sky-400"
+            >
+              anthony@microversesoln.com
+            </a>
 
               <p className="text-slate-300 mt-3">
                 Murrieta, California
