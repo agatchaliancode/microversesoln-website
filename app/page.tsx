@@ -57,7 +57,7 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-          <a href="/solutions">
+          <a href="/solutions" className="block">
             <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
                       <h3 className="text-xl font-bold mb-3">
                 Automation
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </a>
 
-          <a href="/solutions">
+          <a href="/solutions" className="block">
             <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
                 <h3 className="text-xl font-bold mb-3">
               Analytics
@@ -79,7 +79,7 @@ export default function Home() {
           </div>
           </a>
 
-          <a href="/solutions">
+          <a href="/solutions" className="block">
             <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
             <h3 className="text-xl font-bold mb-3">
               Business Intelligence
@@ -90,7 +90,7 @@ export default function Home() {
           </div>
           </a>
 
-          <a href="/solutions">
+          <a href="/solutions" className="block">
             <div className="bg-slate-800 p-6 rounded-xl hover:bg-slate-700 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
             <h3 className="text-xl font-bold mb-3">
               Artificial Intelligence
