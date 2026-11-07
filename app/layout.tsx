@@ -65,9 +65,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       {children}
 
       <footer className="border-t border-slate-800 bg-slate-950 py-12 mt-auto">
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-12">
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-12">
 
             <div>
               <Image
@@ -83,24 +83,24 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold mb-3">
+              <h3 className="text-lg font-semibold text-white mb-3">
                 Quick Links
               </h3>
 
               <div className="flex flex-col gap-2">
-                <a href="/" className="text-slate-400 hover:text-sky-400">
+                <a href="/" className="text-slate-300 hover:text-sky-400">
                   Home
                 </a>
 
-                <a href="/solutions" className="text-slate-400 hover:text-sky-400">
+                <a href="/solutions" className="text-slate-300 hover:text-sky-400">
                   Solutions
                 </a>
 
-                <a href="/about" className="text-slate-400 hover:text-sky-400">
+                <a href="/about" className="text-slate-300 hover:text-sky-400">
                   About
                 </a>
 
-                <a href="/contact" className="text-slate-400 hover:text-sky-400">
+                <a href="/contact" className="text-slate-300 hover:text-sky-400">
                   Contact
                 </a>
               </div>
@@ -111,11 +111,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 Contact
               </h3>
 
-              <p className="text-slate-400">
+              <p className="text-slate-300">
                 anthony@microversesoln.com
               </p>
 
-              <p className="text-slate-400 mt-2">
+              <p className="text-slate-300 mt-2">
                 Murrieta, California
               </p>
             </div>
