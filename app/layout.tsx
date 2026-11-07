@@ -30,7 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
           <body className="min-h-full flex flex-col bg-slate-950 text-white">
 
-      <nav className="flex justify-between items-center px-8 py-2 bg-slate-950 border-b border-slate-800">
+      <nav className="flex justify-between items-center px-8 py-2 bg-slate-900 border-b border-slate-800">
 
         <a href="/">
           <Image
@@ -65,18 +65,18 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       {children}
 
       <footer className="border-t border-slate-800 bg-slate-950 py-12 mt-auto">
-        <div className="max-w-7xl mx-auto px-12">
+        <div className="w-full px-16">
 
-          <div className="grid md:grid-cols-3 gap-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
 
-            <div>
+            <div className="lg:col-span-1">
               <Image
                 src="/logo.png"
                 alt="Microverse Solutions"
-                width={180}
-                height={60}
+                width={220}
+                height={73}
               />
-              <p className="text-slate-400">
+              <p className="text-slate-300 max-w-md mt-4 leading-relaxed">
                 Empowering small businesses through AI,
                 Analytics, Automation, and Business Intelligence.
               </p>
@@ -115,8 +115,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 anthony@microversesoln.com
               </p>
 
-              <p className="text-slate-300 mt-2">
+              <p className="text-slate-300 mt-3">
                 Murrieta, California
+              </p>
+
+              <p className="text-slate-300 mt-3">
+                Available for consulting engagements
               </p>
             </div>
 
