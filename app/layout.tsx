@@ -64,7 +64,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
       {children}
 
-      <footer className="border-t border-slate-800 bg-slate-900 py-16 mt-20">
+      <footer className="border-t border-slate-800 bg-slate-900 py-16">
         <div className="w-full px-16">
 
           <div className="grid md:grid-cols-12 gap-12">
